@@ -1,0 +1,21 @@
+.movies-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: inline-block;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
