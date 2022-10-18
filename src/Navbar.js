@@ -1,7 +1,7 @@
 import "./Navbar.css";
 function Navbar(props) {
   return (
-    <nav className="navbar-container">
+    <nav className={`${props.darkMode ? "dark" : ""} navbar-container`}>
       <div>
         <span className="navbar-header">iWatch TV</span>
         <input
@@ -24,14 +24,14 @@ function Navbar(props) {
         <a href="/home">
           <span>Home</span>
         </a>
-        <a href="/movies">
-          <span>Movie</span>
+        <a href="/Search">
+          <span>Search</span>
         </a>
-        <a href="/series">
-          <span>Series</span>
+        <a href="/home#upcoming">
+          <span>Upcoming</span>
         </a>
-        <a href="https://github.com/matthew-clay">
-          <span>Login</span>
+        <a href="#/home#popular">
+          <span>popular</span>
         </a>
       </div>
     </nav>

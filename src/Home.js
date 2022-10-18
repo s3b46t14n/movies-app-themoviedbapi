@@ -6,7 +6,8 @@ function Home() {
       <a href="https://www.themoviedb.org/" className="link">
         Movies App using The Movie Database (TMDB) API
       </a>
-      <MovieLists />
+      <MovieLists type={"upcoming"} />
+      <MovieLists type={"popular"} />
     </section>
   );
 }

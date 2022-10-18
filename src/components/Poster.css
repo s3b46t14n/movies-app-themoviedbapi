@@ -1,14 +1,16 @@
 .movie {
+  box-sizing: border-box;
   width: 232px;
   margin-right: 2.5rem;
   margin-bottom: 3rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 2rem;
   cursor: pointer;
   transition: transform 0.4s ease-in;
   background-color: #202020;
   color: #fff;
   font-weight: 500;
-  border-radius: 3px;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 45%) 0px 1px 3px, rgb(0 0 0 / 30%) 0px 1px 2px;
 }
 
 .movie:hover {
@@ -48,9 +50,10 @@
 }
 
 .movie-title {
+  min-height: 30px;
   text-align: center;
   font-family: "Inter", sans-serif;
-  padding: 0 1rem 1rem;
+  padding: 0 0 1rem;
   transition: color 0.3s;
 }
 
